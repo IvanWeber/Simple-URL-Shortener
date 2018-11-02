@@ -1,0 +1,24 @@
+body, input {
+    font: 0.9em Arial, sans-serif;
+}
+
+.main-header {
+    font-weight: normal;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+input[type="url"] {
+    width: 300px;
+}
