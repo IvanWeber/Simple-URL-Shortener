@@ -55,7 +55,7 @@
 <?php
 $h = "QqWwEeRrTtYyUuIiOoPpAaSsDdFfGgHhJjKkLlZzXxCcVvBbNnMm1234567890"; //Выбор символов, из которых будет состоять случайный набор
 $rand = substr(str_shuffle($h), 0, 5); //создаём случайный набор символов. Цифра 5 обозначает длину набора
-$site = "http://localhost:8080/Simple%20URL%20Shortener/"; //Адрес сайта
+$site = "https://it-sol-test-task.000webhostapp.com/"; //Адрес сайта
 $url = $_POST['url'];
 
 if ($_POST['submit']) {
