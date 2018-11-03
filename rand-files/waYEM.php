@@ -1,0 +1,1 @@
+<?php header('Location: https://ru.wikipedia.org/wiki/Кеплер,_Иоганн#Математика') ?>

@@ -2,7 +2,7 @@ body, input {
     font: 0.9em Arial, sans-serif;
 }
 
-.main-header {
+.main-header, .second-header {
     font-weight: normal;
 }
 
@@ -21,4 +21,9 @@ input {
 
 input[type="url"] {
     width: 300px;
+}
+
+.validation {
+    color: red;
+    font-size: 0.8em;
 }
